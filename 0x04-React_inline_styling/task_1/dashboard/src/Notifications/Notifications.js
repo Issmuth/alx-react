@@ -46,11 +46,11 @@ class Notifications extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="menuItem">
+        <div className={css(style.menuItem)}>
           <p>Your notifications</p>
         </div>
         {this.props.displayDrawer ? (
-          <div className="Notifications">
+          <div className={css(style.notification)}>
             <button
               style={{
                 color: "#3a3a3a",
