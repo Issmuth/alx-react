@@ -1,0 +1,10 @@
+.Notifications {
+    border: 1.5px dashed red;
+    padding: 10px 5px;
+    margin: 10px;
+    font-size: 1.2em;
+}
+
+[data='default'] {
+    color: 'blue';
+}
